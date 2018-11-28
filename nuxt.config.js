@@ -59,5 +59,10 @@ module.exports = {
     extend(config, ctx) {
       
     }
+  },
+  generate: {
+    fallback: "404.html",
+    subFolders: false,
+    
   }
 }
