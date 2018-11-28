@@ -10,12 +10,12 @@
 import Logo from '~/components/Logo.vue'
 
 export default {
-  middleware: 'noindex',
+  //middleware: 'noindex',
   components: {
     Logo
   },
   validate ({ params, query, store}) {
-    return false
+    return false;
    // return cuchillosCategoria.some((x) => x.subCategorias.some((category) => category.route === params.cuchillos))
     //return cuchillosCategoria.some((x) => x.subCategorias.some((category) => category.route === params.cuchillos))
     //return true;
@@ -24,6 +24,3 @@ export default {
 </script>
 
 <style>
-
-
-</style>
